@@ -62,6 +62,30 @@ https://github.com/saithikekar/Project-4-Air-quality-forecasting-with-machine-le
 
 ![image](https://github.com/saithikekar/Project-4-Air-quality-forecasting-with-machine-learning-with-LLMs/assets/110020678/fa2c4f33-f394-4105-8064-a964c5b526ad)
 
+**5. Comparative Analysis of Models Based on RMSE**
+
+1. **_FNN-ADAM (Feedforward Neural Network with Adam optimizer):_**
+   - Achieves competitive performance across different step sizes.
+   - Robust during both training and testing phases.
+   - Suitable for univariate time-series forecasting.
+
+2. **_LSTM (Long Short-Term Memory):_**
+   - Demonstrates consistent performance.
+   - Effective in capturing temporal dependencies.
+   - Well-suited for sequence modeling.
+
+3. _**ED-LSTM (Encoder-Decoder LSTM):**_
+   - Combines an encoder and a decoder.
+   - Performs well but shows slightly higher RMSE during testing.
+   - Useful for sequence-to-sequence tasks.
+
+4. _**BD-LSTM (Bidirectional LSTM)**:_
+   - Processes input sequences bidirectionally.
+   - Similar performance to other models.
+   - Captures context from both past and future.
+
+![step_anand](https://github.com/saithikekar/Project-4-Air-quality-forecasting-with-machine-learning-with-LLMs/assets/110020678/6f8eb933-af0e-4e6a-b548-c44870743f07)
+
 ## 4. Model Performance
 
 
