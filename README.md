@@ -1,31 +1,68 @@
 # Project-4-Air-quality-forecasting-with-machine-learning-with-LLMs
 This repository contains selection tasks for a Student Research Internship Program at IIT Gandhinagar.
 
-**1. Data**
+## 1. Data
 
 1. Downloaded the dataset from https://cpcb.nic.in/automatic-monitoring-data/
 2. Features (Variables) in the dataset are {PM10, NO, NO2,	WS,	CO,	Benzene, NOx,	Ozone,	SO2,	NH3,	Toluene,	PM2.5). These are all the pollutants taken in consideration.
 ![image](https://github.com/saithikekar/Project-4-Air-quality-forecasting-with-machine-learning-with-LLMs/assets/110020678/c86b9b83-0976-4a6b-8c52-f1192cef7441)
 
-**2. Implementation**
+## 2. Implementation
 
-Models used for experiment: 
-1. FNN model using Adam
-2. LSTM model
-3. Bidirectional LSTM (LSTM)
-4. Encoder-Decoder LSTM Model
+### Implemented Models
+1. **Feedforward Neural Network (FNN-ADAM)**
+   - Suitable for regression tasks.
+   - Trained using the Adam optimizer.
+2. **Long Short-Term Memory (LSTM)**
+   - Designed for sequence modeling.
+   - Captures temporal dependencies.
+3. **Encoder-Decoder LSTM (ED-LSTM)**
+   - Consists of an encoder and a decoder.
+   - Used for sequence-to-sequence tasks.
+4. **Bidirectional LSTM (BD-LSTM)**
+   - Processes input sequences bidirectionally.
+   - Captures context from both past and future.
 
 https://github.com/saithikekar/Project-4-Air-quality-forecasting-with-machine-learning-with-LLMs/blob/main/data_implementation%20file.ipynb [Implementaion of models]
 
 https://github.com/saithikekar/Project-4-Air-quality-forecasting-with-machine-learning-with-LLMs/blob/main/data_visualization%20file.ipynb [Visualization of results]
 
-**3. Visualization**
+## 3. Visualization
 
-Plots
-1. Predicted PM2.5 Concentration at Anand Vihar Station (Dec 17, 2020 - Jan 9, 2021)
+**1. Predicted PM2.5 Concentration at Anand Vihar Station (Dec 17, 2020 - Jan 9, 2021)**
++ graph illustrates the forecasted PM2.5 concentration over a specific time period (from December 17, 2020, to January 9, 2021).
++ The blue line represents the mean PM2.5 concentration.
++ The green shaded area around the line indicates the prediction error range.
++ The graph provides insights into the expected air quality levels at the Anand Vihar station during this period.
+
+![image](https://github.com/saithikekar/Project-4-Air-quality-forecasting-with-machine-learning-with-LLMs/assets/110020678/d0a8af7f-679d-4c3c-a3e3-2401e344fa03)
+
+**2. Correlation Matrix of Air Pollutants**
++ The graph displays a correlation matrix showcasing the relationships between various air pollutants, including PM10, NO, NO2, WS, CO, Benzene, NOx, Ozone, SO2, NH3, Toluene, and PM2.5.
++ Each cell in the matrix represents the correlation coefficient between two pollutants.
++ The color-coded cells indicate the strength and direction of correlations:
++ Red cells represent positive correlations (values closer to 1).
++ Blue cells represent negative correlations (values closer to -1).
++ This matrix provides insights into how different pollutants are related, which is crucial for understanding air quality dynamics.
    
-3. 
-   
+![image](https://github.com/saithikekar/Project-4-Air-quality-forecasting-with-machine-learning-with-LLMs/assets/110020678/4be99a6c-85c2-4a73-a5a1-792ea1f45262)
+
+## 3. Model Comparison for Air Quality Forecasting
++ All models exhibit similar RMSE values during training and testing.
++ FNN-ADAM, LSTM, and BD-LSTM perform consistently.
++ ED-LSTM shows slightly higher RMSE during testing.
+
+![lstm_models_anand](https://github.com/saithikekar/Project-4-Air-quality-forecasting-with-machine-learning-with-LLMs/assets/110020678/e3214f64-f4de-4088-910b-62d6765a46be)
+
+**4. Actual vs. Predicted PM2.5 Concentration**
++ The close alignment between actual and predicted lines suggests that the model performs well.
++ The green “Error” line shows where the model deviates from actual values.
++ Further investigation into error patterns can guide model improvements.
++ Overall, the model provides reliable PM2.5 forecasts for air quality management.
+
+![image](https://github.com/saithikekar/Project-4-Air-quality-forecasting-with-machine-learning-with-LLMs/assets/110020678/fa2c4f33-f394-4105-8064-a964c5b526ad)
+
+## 4. Model Performance
 
 
 
