@@ -29,7 +29,7 @@ https://github.com/saithikekar/Project-4-Air-quality-forecasting-with-machine-le
 LLM Models:
 + **LLama2 Quantized version**
 + **Gemma:7b**
-+ 
+
 
 ## 3. Visualization
 
@@ -90,7 +90,15 @@ LLM Models:
 
 ![step_anand](https://github.com/saithikekar/Project-4-Air-quality-forecasting-with-machine-learning-with-LLMs/assets/110020678/6f8eb933-af0e-4e6a-b548-c44870743f07)
 
-## 4. Model Performance
+## 4. Model Performance and insights 
+
++ ![diagram lstm](https://github.com/saithikekar/Project-4-Air-quality-forecasting-with-machine-learning-with-LLMs/assets/110020678/80077a92-d9b6-45ae-8227-0ebeae8a2102)
+
++ for LLM models Quantized versions were implemented and if we consider climate factors we will be able to predict the values with more accuracy for LLM.
++ Other models like TimeLLM, TimeGPT can be implemented with proper system requirements which can give best results for zero shot time series forecasting.
++ The LSTM models were trained for 200 epochs were as the models used in airfomer solution were trained for 2000+epochs and with proper GPUs.
++ The implemented models were trained on colab using T4 GPU with minimum setup.
+
 
 
 
