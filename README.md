@@ -98,6 +98,7 @@ LLM Models:
 + Other models like TimeLLM, TimeGPT can be implemented with proper system requirements which can give best results for zero shot time series forecasting.
 + The LSTM models were trained for 200 epochs were as the models used in airfomer solution were trained for 2000+epochs and with proper GPUs.
 + The implemented models were trained on colab using T4 GPU with minimum setup.
++ LLM models Implementation for predicting air quality for next 24hrs https://github.com/saithikekar/Project-4-Air-quality-forecasting-with-machine-learning-with-LLMs/tree/7b1e1af66156bb63cc7dd4f5bddf5b8229f9991a/llm%20models%20implementation
 
 
 
