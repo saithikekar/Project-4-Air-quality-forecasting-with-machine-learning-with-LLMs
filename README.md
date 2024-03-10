@@ -22,7 +22,7 @@ This repository contains selection tasks for a Student Research Internship Progr
    - Processes input sequences bidirectionally.
    - Captures context from both past and future.
 
-https://github.com/saithikekar/Project-4-Air-quality-forecasting-with-machine-learning-with-LLMs/blob/main/data_implementation%20file.ipynb [Implementaion of models]
+[https://github.com/saithikekar/Project-4-Air-quality-forecasting-with-machine-learning-with-LLMs/blob/main/data_implementation%20file.ipynb ](https://github.com/saithikekar/Project-4-Air-quality-forecasting-with-machine-learning-with-LLMs/blob/dc6b688bb1950ac49173b5e3d2c63275a6b42738/data_implementation_file%20(1).ipynb)[Implementaion of models]
 
 https://github.com/saithikekar/Project-4-Air-quality-forecasting-with-machine-learning-with-LLMs/blob/main/data_visualization%20file.ipynb [Visualization of results]
 
